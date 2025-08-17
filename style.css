@@ -72,7 +72,7 @@
 
 }
 
-.hero_left a{
+.blutbtc{
     display: inline-block;
     background-color: #3882f6;
     margin-top: 15px;
@@ -162,7 +162,57 @@
 }
 
 .quent_content .p22{
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 600;
+}
 
-    background-color: red;
-    text-align: left;
+.cta{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bluecta{
+    width: 80%;
+    height: 30%;
+    background-color: #3882f6;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blues{
+    border: white solid 1px;
+}
+
+.ctap{
+    /* background-color: red; */
+}
+
+.p33{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.p44{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: #1F2937;
+}
+
+.lastp{
+    color: #E5E7EB;
+    font-size: 18px;
 }
