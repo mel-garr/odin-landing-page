@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    display: inline-block;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav ul {
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color : #E5E7EB;
+    font-size: 18px;
+}
+
+.hero_part{
+    flex :1;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_left{
+    flex-basis: 48%;
+    height: 60%;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.hero_left h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero_left p{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.hero_left a{
+    display: inline-block;
+    background-color: #3882f6;
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 10%;
+    color: white;
+}
+
+
+.hero_right{
+    flex-basis :48%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.gray_image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.no_image{
+    color : #E5E7EB;
+}
+
+.random_info{
+    width: 60%;
+    height: 40vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.p1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.div_img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px #3882f6;
+}
+
+.lll{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.lll li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    width: 100%;
+    height: 40vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quent_content{
+    width: 60%;
+    /* background-color: red; */
+}
+
+.quent_content .p11{
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quent_content .p22{
+
+    background-color: red;
+    text-align: left;
+}
